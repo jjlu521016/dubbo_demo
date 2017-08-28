@@ -2,6 +2,7 @@ package com.dubbo.demo.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.dubbo.demo.service.UserService;
+import org.springframework.stereotype.Component;
 
 /**
  * @author jasonLu
@@ -9,6 +10,7 @@ import com.dubbo.demo.service.UserService;
  * @Description:
  */
 @Service
+@Component
 public class UserServiceImpl implements UserService {
     public String testSayDubbo() {
         String test = "demoqqqq";
