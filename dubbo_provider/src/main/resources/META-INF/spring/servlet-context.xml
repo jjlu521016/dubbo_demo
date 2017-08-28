@@ -11,8 +11,9 @@
        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
        default-lazy-init="false">
 
-    <dubbo:annotation package="com.dubbo.demo"/>
-    <context:component-scan base-package="com.dubbo"/>
+    <context:annotation-config/>
+    <context:component-scan base-package="com.dubbo.demo.service"/>
+    <dubbo:annotation />
     <mvc:annotation-driven>
         <!-- 消息转换器 -->
         <mvc:message-converters register-defaults="true">

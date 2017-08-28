@@ -7,7 +7,7 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
-			classpath*:dubbo_consumer.xml
+			classpath*:META-INF/spring/*.xml
 		</param-value>
 	</context-param>
 
