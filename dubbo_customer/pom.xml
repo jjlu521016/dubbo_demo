@@ -13,6 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<org.springframework.version>4.2.5.RELEASE</org.springframework.version>
+		<logback.version>1.1.2</logback.version>
 	</properties>
 
 	<!-- 依赖 -->
@@ -104,6 +105,22 @@
 			<artifactId>zkclient</artifactId>
 			<version>0.1</version>
 		</dependency>
-
+		<!--&lt;!&ndash; logback相关依赖开始 &ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>ch.qos.logback</groupId>-->
+			<!--<artifactId>logback-core</artifactId>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>ch.qos.logback</groupId>-->
+			<!--<artifactId>logback-access</artifactId>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>ch.qos.logback</groupId>-->
+			<!--<artifactId>logback-classic</artifactId>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.slf4j</groupId>-->
+			<!--<artifactId>log4j-over-slf4j</artifactId>-->
+		<!--</dependency>-->
 	</dependencies>
 </project>
