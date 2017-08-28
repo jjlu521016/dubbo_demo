@@ -26,14 +26,12 @@ public class TestController {
     @ResponseBody
     public String sayDubbo() {
 //        String str = testService.testSayDubbo();
-        String str = roleService.getInfo();
-        return str;
+        return roleService.getInfo();
     }
 
     @RequestMapping("/testSay")
     @ResponseBody
     public String sayHello(String name) {
-        String str = testService.say(name);
-        return str;
+        return testService.say(name);
     }
 }
