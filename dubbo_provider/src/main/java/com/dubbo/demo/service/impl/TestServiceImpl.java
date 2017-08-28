@@ -1,16 +1,18 @@
 package com.dubbo.demo.service.impl;
 
 
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.alibaba.dubbo.config.annotation.Service;
 import com.dubbo.demo.service.TestService;
 import com.dubbo.demo.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 
+@Component
 @Service
 public class TestServiceImpl implements TestService {
 
-    @Autowired
+    @Reference
     private UserService userService;
 
 

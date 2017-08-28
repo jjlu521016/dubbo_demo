@@ -15,7 +15,5 @@
 	<!-- 用dubbo协议在20880端口暴露服务 -->
 	<dubbo:protocol name="dubbo"  port="20883" />
 
-	<bean id="userService" class="com.dubbo.demo.service.impl.UserServiceImpl"/>
-	<dubbo:service interface="com.dubbo.demo.service.UserService" ref="userService" />
 
 </beans>
