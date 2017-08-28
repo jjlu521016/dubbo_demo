@@ -6,4 +6,4 @@ zookeeper版本：3.4.8
 
 ### 基于注解形式的dubbo验证
 #### 1. dubbo的Service调用其他Dubbo 会出现注入为null
-#### 2. Spring的Service调用其他Bubbo，不会出现注入为null
+#### 2. Spring的Service调用其他Dubbo，不会出现注入为null
